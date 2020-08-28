@@ -4,7 +4,7 @@ import share from '../../assets/images/threeIcon/share.png'
 import stable from '../../assets/images/threeIcon/stable.png'
 import team from '../../assets/images/threeIcon/team.png'
 import {StyleRoot} from "radium";
-import styles from '../animations/index'
+import styles from '../animations/index';
 
 class SecDiv extends Component {
     render() {

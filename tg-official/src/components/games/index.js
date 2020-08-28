@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import gamesPng from '../../assets/images/games.png'
+import gamesPng from '../../assets/images/games.png';
+import {StyleRoot} from "radium";
+import styles from '../animations/index';
 class Games extends Component {
     render() {
         return(
@@ -9,7 +11,9 @@ class Games extends Component {
                     <p>多元話選擇</p>
                     <p>滿足不同需求</p>
                 </div>
-                <img src={gamesPng} alt="games"/>
+                <StyleRoot>
+                <img src={gamesPng} alt="games" style={styles.bounce}/>
+                </StyleRoot>
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center">

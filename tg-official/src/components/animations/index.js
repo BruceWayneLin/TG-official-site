@@ -1,5 +1,5 @@
 
-import {slideInLeft, slideInRight, bounce} from 'react-animations';
+import {slideInLeft, slideInRight, bounce, fadeIn} from 'react-animations';
 import Radium, {StyleRoot} from "radium";
 
 const styles = {
@@ -11,6 +11,10 @@ const styles = {
   bounce: {
     animation: 'x 1s',
     animationName: Radium.keyframes(bounce, 'bounce')
+  },
+  fadeIn:  {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(fadeIn, 'fadeIn')
   },
   slideInRight: {
     animation: 'x 1s',

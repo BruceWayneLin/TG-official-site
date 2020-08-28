@@ -4,6 +4,8 @@ import expense from '../../assets/images/threeIcon/expense.png'
 import time from '../../assets/images/threeIcon/time.png'
 import operation from '../../assets/images/threeIcon/operation.png'
 import onePhone from '../../assets/images/onephone.png'
+import {StyleRoot} from "radium";
+import styles from '../animations/index';
 
 class Rules extends Component {
     render() {
@@ -14,9 +16,10 @@ class Rules extends Component {
                     <p>顛覆傳統遊戲：藝人代言、公司盈利、通路抽成、玩家付費買單的套路</p>
                     <p>平台與眾不同 緊密與財富相通</p>
                 </div>
+                <StyleRoot>
                 <div className="container">
                     <div className="row">
-                        <div className="col-4">
+                        <div className="col-4" style={styles.slideInLeft}>
                             <div className="trading">
                                 <img src={expense} alt="light-trade" />
                                 <div className="desc">
@@ -35,7 +38,7 @@ class Rules extends Component {
                         <div className="col-4">
                             <img className="img-responsive" src={onePhone} alt="light-trade" />
                         </div>
-                        <div className="col-4">
+                        <div className="col-4" style={styles.slideInRight}>
                             <div className="trading">
                                 <img src={time} alt="light-trade" />
                                 <div className="desc">
@@ -53,6 +56,7 @@ class Rules extends Component {
                         </div>
                     </div>
                 </div>
+                </StyleRoot>
                 <div className="container mt-3">
                     <div className="row purple">
                         <div className="col-xs-7 p-3 pt-4 text-left">

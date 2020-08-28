@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import allLevels from '../../assets/images/allLevels.png'
+import allLevels from '../../assets/images/allLevels.png';
+import {StyleRoot} from "radium";
+import styles from '../animations/index';
 class Level extends Component {
     render() {
         return(
@@ -14,7 +16,9 @@ class Level extends Component {
                             <div className="Desc">
                                 新註冊玩家VIP等級為鐵，完成基本資料後升級為銅，基本資料email完成驗證後即可保有銀卡以上VIP等級。當玩家當前”60日內累計押注額”(T幣和G幣為1:1;R幣和L幣為1:0.5)，立即提升VIP層級；若"60日內累積押注額"未達原VIP等級會即時降VIP等級。
                             </div>
-                            <img src={allLevels} alt="levels"/>
+                            <StyleRoot>
+                            <img src={allLevels} alt="levels" style={styles.bounce}/>
+                            </StyleRoot>
                         </div>
                     </div>
                 </div>

@@ -7,10 +7,26 @@ class Nav extends Component {
                 <div>
                     <img src={logo} alt="logo" className="logo" />
                 </div>
-                <div>平台介紹</div>
-                <div>平台優勢</div>
-                <div>規則介紹</div>
-                <div>關於我們</div>
+                <div>
+                <a href="#FirstDiv">
+                    平台介紹
+                </a>
+                </div>
+                <div>
+                <a href="#secDiv">
+                平台優勢
+                </a>
+                </div>
+                <div>
+                <a href="#rules">
+                規則介紹
+                </a>
+                </div>
+                <div>
+                <a href="#About">
+                關於我們
+                </a>
+                </div>
             </div>
         )
     }
