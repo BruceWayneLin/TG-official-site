@@ -1,0 +1,13 @@
+#nav {
+    margin: 0 15%;
+    height: 74px;
+    text-align: center;
+    @include flexBox(row);
+    @include flexAlign(center, space-around);
+    color:white;
+    font-weight: bold;
+    padding: 10px 0px;
+    .logo {
+        height:74px;
+    }
+}
