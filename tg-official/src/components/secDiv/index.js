@@ -48,21 +48,21 @@ class SecDiv extends Component {
                     <div className="row">
                         <div className="col-4">
                             <div className="icon" >
-                            <img src={share} alt="share"/>
+                            <img className="img-responsive" src={share} alt="share"/>
                             <h3 className="text-center">分享收益</h3>
                             <p>注册就贈送，推薦很輕鬆</p>
                             </div>
                         </div>
                         <div className="col-4">
                             <div className="icon" >
-                            <img src={stable} alt="stable" />
+                            <img  className="img-responsive" src={stable} alt="stable" />
                             <h3 className="text-center">固定收益</h3>
                             <p>坐享其成，毫無壓力</p>
                             </div>
                         </div>
                         <div className="col-4">
                             <div  className="icon">
-                            <img src={team} alt="team"/>
+                            <img className="img-responsive" src={team} alt="team"/>
                             <h3 className="text-center">團隊收益</h3>
                             <p>能力體現價值，無限想像空間</p>
                             </div>

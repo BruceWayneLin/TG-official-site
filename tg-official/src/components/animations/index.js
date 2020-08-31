@@ -3,6 +3,11 @@ import {slideInLeft, slideInRight, bounce, fadeIn} from 'react-animations';
 import Radium, {StyleRoot} from "radium";
 
 const styles = {
+    slideInLeftFast: {
+    animation: 'x 1s',
+    animationDuration: '0.5s',
+    animationName: Radium.keyframes(slideInLeft, 'slideInLeft')
+    },
   slideInLeft: {
     animation: 'x 1s',
     animationDuration: '3s',

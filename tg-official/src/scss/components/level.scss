@@ -1,6 +1,9 @@
 #Level {
     padding: 0 15%;
-    font-size: 12px;
+    font-size: 1.25rem;
+    @include customMax(768px){
+        padding: 0;
+    }
     p {
         padding: 5px 0px;
     }

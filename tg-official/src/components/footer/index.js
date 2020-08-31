@@ -6,12 +6,12 @@ class Footer extends Component {
             <div id="Footer" className="mt-5">
                 <div id="bg" className="container-fluid p-0">
                     <div className="row">
-                        <div className="col-12 text-center">
+                        <div className="col-12 text-center p-0">
                             <h1 className="mt-5">歡迎你的加入</h1>
                             <p>
                             <b>Welcome to join us</b>
                             </p>
-                            <img src={logo} alt="logo" />
+                            <img className="img-responsive logo" src={logo} alt="logo" />
                             <button className="bouton6">
                                 立即註冊
                             </button>

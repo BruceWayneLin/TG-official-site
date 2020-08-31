@@ -22,7 +22,13 @@
         }
     }
     padding: 0 15%;
-    font-size: 12px;
+    font-size: 1.25rem;
+    .col-xs-5 {
+        width: 30%;
+    }
+    @include customMax(768px){
+        padding: 0;
+    }
     .row.purple {
         font-weight: bold;
         background-color: purple;
